@@ -4,6 +4,7 @@ import thunk from "redux-thunk";
 import { rootReducer as reducer } from "./reducers/reducer";
 import MusicList from "./components/musicList";
 import { Provider } from "react-redux";
+import './App.css';
 
 const store = createStore(reducer, applyMiddleware(thunk));
 

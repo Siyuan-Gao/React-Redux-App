@@ -18,7 +18,7 @@ const MusicList = props => {
       
           {props.music.map(info =>
             <div>
-              <h1>{info.name}</h1>
+              <h3>{info.name}</h3>
               <p>{info.listeners}</p>
               <p>{info.followers}</p>
               <a href={info.url}>More Info</a>

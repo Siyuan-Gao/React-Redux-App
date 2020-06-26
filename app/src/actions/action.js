@@ -1,5 +1,4 @@
 import axios from 'axios';
-
 export const FETCH_MUSIC_START = 'FETCH_MUSIC_START';
 export const FETCH_MUSIC_SUCCESS = 'FETCH_MUSIC_SUCCESS';
 export const FETCH_MUSIC_FAIL = 'FETCH_MUSIC_FAIL';
